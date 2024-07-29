@@ -1,0 +1,119 @@
+:root {
+  --coffee-colour: rgb(175, 104, 76);
+  --deeper-coffee: rgb(94, 27, 20);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Libre Bodoni", serif;
+}
+
+p,
+a {
+  font-family: "Nunito", sans-serif;
+}
+
+.navbar * {
+  color: white !important;
+}
+
+.white-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.text-box {
+  background-color: rgba(39, 39, 39, 0.66); /* Transparent black background */
+  color: white; /* White text color */
+  /*
+  padding: 20px; /* Padding inside the box 
+  display: inline-block; /* Ensure the box width fits the content 
+  border-radius: 10px; /* Optional: rounded corners 
+  */
+}
+
+.container-hero {
+  position: relative;
+  width: 100%;
+  background-image: url("../images/industrial-coffee.png");
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.hero-bottom-text {
+  width: 100%;
+  background-color: var(--coffee-colour);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.hero-bottom-bar-bg {
+  background-color: var(--coffee-colour);
+  color: rgb(0, 0, 0);
+}
+.bg-coffee {
+  background-color: var(--coffee-colour);
+}
+.bg-paper {
+  background-color: rgb(245, 241, 225);
+}
+
+.tea-text {
+  color: rgb(212, 171, 132);
+}
+
+.amenity-icon {
+  color: var(--deeper-coffee);
+}
+
+.bg-dark-transparent {
+  background-color: rgba(39, 39, 39, 0.66);
+}
+
+@media (min-width: 768px) {
+  .textbox {
+    margin-top: 10rem;
+    margin-left: -5rem;
+    padding: 3rem;
+  }
+}
+
+.vertical-divider {
+  width: 1px;
+  background-color: white;
+  height: 100%;
+  margin: 0 2em;
+}
+
+.discover-button {
+  background-color: transparent;
+  border: 1px solid #dcdcdc;
+  display: inline-block;
+  cursor: pointer;
+  color: #dcdcdc;
+  padding: 10px 24px;
+  text-decoration: none;
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s, top 0.1s;
+}
+.discover-button:hover {
+  background-color: rgba(255, 255, 255, 0.95);
+  color: #000000;
+  border: 1px solid #9e9e9e;
+}
+.discover-button:active {
+  position: relative;
+  top: 1px;
+}
+
+.max-size1 {
+  max-height: 150px;
+}
